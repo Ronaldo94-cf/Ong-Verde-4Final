@@ -6,8 +6,8 @@
 
 **Autor:** Ronaldo César  
 **Disciplina:** Projeto Integrador IV — 2025  
-**Repositório:** 
-**Acesse o site clicando aqui:**
+**Repositorio**: https://github.com/Ronaldo94-cf/Ong-Verde-4Final
+**Acesse o site clicando aqui:**https://ronaldo94-cf.github.io/Ong-Verde-4Final/
 
 ---
 
@@ -63,7 +63,7 @@ O projeto segue boas práticas de desenvolvimento web, acessibilidade e versiona
 
 ## 🚀 Como Rodar Localmente
 
-1. Clone o repositório:  
+1. Clone o repositório:  https://github.com/Ronaldo94-cf/Ong-Verde-4Final
    ```bash
    git clone 
 
