@@ -1,9 +1,5 @@
 # Projeto ONG Verde — Entrega Final (Atividade 4)\n\nEste repositório contém a entrega final da Atividade 4 — Projeto ONG VerdeViva.\n
 
-
-# Projeto ONG Verde — Entrega Final (Atividade 4)\n\nEste repositório contém a entrega final da Atividade 4 — Projeto ONG VerdeViva.\n
-# Projeto ONG Verde — Atividade 4
-
 **Autor:** Ronaldo César  
 **Disciplina:** Projeto Integrador IV — 2025  
 **Repositorio**: https://github.com/Ronaldo94-cf/Ong-Verde-4Final
