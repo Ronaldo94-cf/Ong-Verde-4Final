@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG VerdeViva — Cadastro de Voluntários</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <h1 class="logo">VerdeViva</h1>
+      <button id="theme-toggle" aria-pressed="false" aria-label="Alternar modo escuro">🌙</button>
+      <nav role="navigation" aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html" class="active">Voluntários</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1" role="main">
+    <section class="container form-section" aria-labelledby="cad-title">
+      <h2 id="cad-title">Cadastre-se como Voluntário</h2>
+
+      <form id="vol-form" novalidate>
+        <div class="form-row">
+          <label for="nome">Nome completo</label>
+          <input id="nome" name="nome" type="text" required aria-required="true" />
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required aria-required="true" />
+        </div>
+
+        <div class="form-row">
+          <label for="telefone">Telefone</label>
+          <input id="telefone" name="telefone" type="tel" inputmode="tel" required aria-required="true" />
+        </div>
+
+        <div class="form-row">
+          <label for="interesse">Área de interesse</label>
+          <select id="interesse" name="interesse" required>
+            <option value="">-- selecione --</option>
+            <option value="reflorestamento">Reflorestamento</option>
+            <option value="educacao">Educação Ambiental</option>
+            <option value="coleta">Coleta Seletiva</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <button class="btn" type="submit">Cadastrar</button>
+        </div>
+
+        <div id="form-msg" class="sr-only" aria-live="polite"></div>
+      </form>
+
+      <section aria-labelledby="lista-title" class="vol-list">
+        <h3 id="lista-title">Voluntários cadastrados</h3>
+        <ul id="voluntarios" aria-live="polite"></ul>
+      </section>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <p>© <span id="year3"></span> VerdeViva — Todos os direitos reservados.</p>
+      <p><a href="index.html">Voltar para o início</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
